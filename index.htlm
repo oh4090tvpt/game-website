@@ -15,31 +15,49 @@
         font-size: 3rem;
         margin-bottom: 40px;
       }
-      a {
-        display: block;
-        margin: 15px 0;
-        font-size: 1.5rem;
-        text-decoration: none;
-        color: limegreen;
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        max-width: 900px;
+        margin: 0 auto;
       }
-      a:hover {
-        color: white;
+      .card {
+        background-color: #111;
+        border: 2px solid limegreen;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 1.3rem;
+        cursor: pointer;
+        transition: transform 0.2s, background-color 0.2s;
+      }
+      .card:hover {
+        background-color: limegreen;
+        color: black;
+        transform: scale(1.05);
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
       }
     </style>
   </head>
   <body>
     <h1>Gaming Website</h1>
 
-    <div id="games">
-      <a href="https://www.retro-bowl.com/" target="_blank">Retro Bowl</a>
-      <a href="https://slope-game.com/" target="_blank">Slope</a>
-      <a href="https://www.crazygames.com/game/basketball-stars" target="_blank">Basketball Stars</a>
-      <a href="https://www.crazygames.com/game/soccer-random" target="_blank">Soccer Random</a>
-      <a href="https://www.crazygames.com/game/basket-random" target="_blank">Basket Random</a>
-      <a href="https://www.crazygames.com/game/moto-x3m" target="_blank">Moto X3M</a>
-      <a href="https://www.kiloo.com/subwaysurfers" target="_blank">Subway Surfers</a>
-      <a href="https://www.candywriter.com/bitlife" target="_blank">BitLife</a>
-      <!-- Add more as we confirm working links -->
-    </div>
+    <div class="grid">
+      <div class="grid">
+  <a href="https://www.retro-bowl.com/" target="_blank"><div class="card">Retro Bowl</div></a>
+  <a href="https://slope-game.com/" target="_blank"><div class="card">Slope</div></a>
+  <a href="https://www.crazygames.com/game/basketball-stars" target="_blank"><div class="card">Basketball Stars</div></a>
+  <a href="https://www.crazygames.com/game/soccer-random" target="_blank"><div class="card">Soccer Random</div></a>
+  <a href="https://www.crazygames.com/game/basket-random" target="_blank"><div class="card">Basket Random</div></a>
+  <a href="https://www.crazygames.com/game/moto-x3m" target="_blank"><div class="card">Moto X3M</div></a>
+  <a href="https://www.kiloo.com/subwaysurfers" target="_blank"><div class="card">Subway Surfers</div></a>
+  <a href="https://www.candywriter.com/bitlife" target="_blank"><div class="card">BitLife</div></a>
+  <a href="https://sites.google.com/view/retrobowlcollege" target="_blank"><div class="card">Retro Bowl College</div></a>
+  <a href="https://www.crazygames.com/game/drive-mad" target="_blank"><div class="card">Drive Mad</div></a>
+  <a href="https://polytrack.io/" target="_blank"><div class="card">Polytrack</div></a>
+</div>
   </body>
 </html>
