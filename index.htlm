@@ -46,18 +46,10 @@
     <h1>Gaming Website</h1>
 
     <div class="grid">
-      <div class="grid">
-  <a href="https://www.retro-bowl.com/" target="_blank"><div class="card">Retro Bowl</div></a>
-  <a href="https://slope-game.com/" target="_blank"><div class="card">Slope</div></a>
-  <a href="https://www.crazygames.com/game/basketball-stars" target="_blank"><div class="card">Basketball Stars</div></a>
-  <a href="https://www.crazygames.com/game/soccer-random" target="_blank"><div class="card">Soccer Random</div></a>
-  <a href="https://www.crazygames.com/game/basket-random" target="_blank"><div class="card">Basket Random</div></a>
-  <a href="https://www.crazygames.com/game/moto-x3m" target="_blank"><div class="card">Moto X3M</div></a>
-  <a href="https://www.kiloo.com/subwaysurfers" target="_blank"><div class="card">Subway Surfers</div></a>
-  <a href="https://www.candywriter.com/bitlife" target="_blank"><div class="card">BitLife</div></a>
-  <a href="https://sites.google.com/view/retrobowlcollege" target="_blank"><div class="card">Retro Bowl College</div></a>
-  <a href="https://www.crazygames.com/game/drive-mad" target="_blank"><div class="card">Drive Mad</div></a>
-  <a href="https://polytrack.io/" target="_blank"><div class="card">Polytrack</div></a>
-</div>
-  </body>
-</html>
+      <a href="https://www.retro-bowl.com/" target="_blank"><div class="card">Retro Bowl</div></a>
+      <a href="https://sites.google.com/view/retrobowlcollege" target="_blank"><div class="card">Retro Bowl College</div></a>
+      <a href="https://www.kiloo.com/subwaysurfers" target="_blank"><div class="card">Subway Surfers</div></a>
+      <a href="https://www.crazygames.com/game/drive-mad" target="_blank"><div class="card">Drive Mad</div></a>
+      <a href="https://www.crazygames.com/game/basketball-stars" target="_blank"><div class="card">Basketball Stars</div></a>
+      <a href="https://www.crazygames.com/game/soccer-random" target="_blank"><div class="card">Soccer Random</div></a>
+      <a href="https://www.crazygames.com/game/basket-random
