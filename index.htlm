@@ -8,18 +8,38 @@
         background-color: black;
         color: limegreen;
         font-family: monospace;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
+        text-align: center;
+        padding: 30px;
       }
       h1 {
         font-size: 3rem;
+        margin-bottom: 40px;
+      }
+      a {
+        display: block;
+        margin: 15px 0;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: limegreen;
+      }
+      a:hover {
+        color: white;
       }
     </style>
   </head>
   <body>
     <h1>Gaming Website</h1>
+
+    <div id="games">
+      <a href="https://www.retro-bowl.com/" target="_blank">Retro Bowl</a>
+      <a href="https://slope-game.com/" target="_blank">Slope</a>
+      <a href="https://www.crazygames.com/game/basketball-stars" target="_blank">Basketball Stars</a>
+      <a href="https://www.crazygames.com/game/soccer-random" target="_blank">Soccer Random</a>
+      <a href="https://www.crazygames.com/game/basket-random" target="_blank">Basket Random</a>
+      <a href="https://www.crazygames.com/game/moto-x3m" target="_blank">Moto X3M</a>
+      <a href="https://www.kiloo.com/subwaysurfers" target="_blank">Subway Surfers</a>
+      <a href="https://www.candywriter.com/bitlife" target="_blank">BitLife</a>
+      <!-- Add more as we confirm working links -->
+    </div>
   </body>
 </html>
