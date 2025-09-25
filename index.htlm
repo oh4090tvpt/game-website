@@ -2,10 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My Game Site</title>
+    <title>Gaming Website</title>
+    <style>
+      body {
+        background-color: black;
+        color: limegreen;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+    </style>
   </head>
   <body>
-    <h1>My Game website</h1>
-    <p>If you see this, GitHub Pages is working.</p>
+    <h1>Gaming Website</h1>
   </body>
 </html>
